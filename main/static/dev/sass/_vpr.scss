@@ -35,7 +35,7 @@ html, body {
         a {
             color: $white;
             &:hover {
-                color: $blue;
+                color: darken($white, 5%);
                 text-decoration: none;
             }
         }
@@ -82,7 +82,7 @@ footer {
     }
 }
 
-#underwriter {
+#underwriter, #marcomm {
     max-width: 300px;
     margin: 0 auto;
     min-height: 300px;

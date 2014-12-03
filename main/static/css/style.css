@@ -5108,15 +5108,16 @@ html, body {
 }
 /* line 37, ../dev/sass/_vpr.scss */
 .navbar .navbar-header a:hover {
-  color: #307fe2;
+  color: #e6e6e6;
+  text-decoration: none;
 }
-/* line 41, ../dev/sass/_vpr.scss */
+/* line 42, ../dev/sass/_vpr.scss */
 .navbar .navbar-header #vpr_logo {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 46, ../dev/sass/_vpr.scss */
+/* line 47, ../dev/sass/_vpr.scss */
 .navbar .navbar-header h1#navbar-title {
   margin-top: 10px;
   font-size: 26px;
@@ -5124,25 +5125,25 @@ html, body {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 46, ../dev/sass/_vpr.scss */
+  /* line 47, ../dev/sass/_vpr.scss */
   .navbar .navbar-header h1#navbar-title {
     display: none;
   }
 }
-/* line 55, ../dev/sass/_vpr.scss */
+/* line 56, ../dev/sass/_vpr.scss */
 .navbar .navbar-header #social-logos {
   position: absolute;
   top: 0;
   right: 0;
   font-weight: 300;
 }
-/* line 60, ../dev/sass/_vpr.scss */
+/* line 61, ../dev/sass/_vpr.scss */
 .navbar .navbar-header #social-logos li {
   font-size: 32px;
   padding-left: 8px;
 }
 
-/* line 68, ../dev/sass/_vpr.scss */
+/* line 69, ../dev/sass/_vpr.scss */
 footer {
   background: #646c6c;
   font-size: 12px;
@@ -5151,37 +5152,37 @@ footer {
   padding: 20px 0 10px;
 }
 @media (max-width: 768px) {
-  /* line 68, ../dev/sass/_vpr.scss */
+  /* line 69, ../dev/sass/_vpr.scss */
   footer {
     padding-bottom: 20px;
   }
 }
-/* line 79, ../dev/sass/_vpr.scss */
+/* line 80, ../dev/sass/_vpr.scss */
 footer span#copyright {
   float: right;
 }
 
-/* line 84, ../dev/sass/_vpr.scss */
-#underwriter {
+/* line 85, ../dev/sass/_vpr.scss */
+#underwriter, #marcomm {
   max-width: 300px;
   margin: 0 auto;
   min-height: 300px;
 }
-/* line 88, ../dev/sass/_vpr.scss */
-#underwriter p {
+/* line 89, ../dev/sass/_vpr.scss */
+#underwriter p, #marcomm p {
   font-size: 12px;
   padding-left: 0;
   margin-top: 3px;
   text-align: center;
   color: #8f9294;
 }
-/* line 94, ../dev/sass/_vpr.scss */
-#underwriter p li {
+/* line 95, ../dev/sass/_vpr.scss */
+#underwriter p li, #marcomm p li {
   display: inline;
 }
 @media (max-width: 330px) {
-  /* line 84, ../dev/sass/_vpr.scss */
-  #underwriter {
+  /* line 85, ../dev/sass/_vpr.scss */
+  #underwriter, #marcomm {
     margin-left: -5px;
   }
 }
@@ -8460,4 +8461,9 @@ footer span#copyright {
 /* line 2182, ../dev/sass/_ionicons.scss */
 .ion-xbox:before {
   content: "\f30c";
+}
+
+/* line 6, ../dev/sass/style.scss */
+.uw-row {
+  padding-top: 32px;
 }
