@@ -1,33 +1,17 @@
-#VPR App Template
-Used to create and push static web applications for hosting on Amazon S3.
+# VPR Timeline: A Year Of 'Systemic Failure' At DCF
 
-This stack is used by VPR to publish news apps and can be used for anything from building a blog to creating more advanced web applications.
-
-## Technology
-- [Flask](http://flask.pocoo.org/): Used for local development
-
-- [Frozen-Flask](http://pythonhosted.org/Frozen-Flask/): Freezes Flask application into a series of static files
-
-- [Jinja](http://jinja.pocoo.org/docs/): Python templating language
-
-- [Bootstrap](http://getbootstrap.com/): Twitter's HTML/CSS/JS framework
-
-- [Sass](http://sass-lang.com/): CSS extension that allows for variables, inheritance, and even logic in stylesheets
-
-- [Compass](http://compass-style.org/): A Sass "framework"
-
-- [Grunt](http://gruntjs.com/): A JavaScript task runner used for concatenation, minification, preprocessing and image optimization that runs in the background during development and refreshes the page when JS changes and injects CSS changes into the pages.
+A page built using the [app-template](https://github.com/vprnet/app-template).
 
 ## Set Up
 
 1. Install [virtualenv](https://pypi.python.org/pypi/virtualenv)
 2. Clone the repository
 
-        $ git clone git@github.com:vprnet/app-template.git
+        $ git clone git@github.com:vprnet/timeline-dcf-systemic-failure.git
 
 3. Create Virtual Environment in project
 
-        $ cd app-template
+        $ cd timeline-dcf-systemic-failure
         $ virtualenv venv
 
 4. Enter virtual environment
@@ -64,7 +48,7 @@ The project will be viewable at http://127.0.0.1:5000/
 
 ## Deploy
 
-1. Create an S3 bucket to serve content using [Amazon's documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) for hosting a static website
+1. In config, set the `AWS_DIRECTORY` to either `sandbox/timeline-dcf-systemic-failure/` or `apps/timeline-dcf-systemic-failure/`
 
 2. Configure AWS settings in `config.py`
 
