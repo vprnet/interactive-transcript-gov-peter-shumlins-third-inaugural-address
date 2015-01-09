@@ -1,4 +1,4 @@
-# VPR Timeline: A Year Of 'Systemic Failure' At DCF
+# Timeline: A Year Of 'Systemic Failure' At DCF
 
 A page built using the [app-template](https://github.com/vprnet/app-template).
 
@@ -7,11 +7,11 @@ A page built using the [app-template](https://github.com/vprnet/app-template).
 1. Install [virtualenv](https://pypi.python.org/pypi/virtualenv)
 2. Clone the repository
 
-        $ git clone git@github.com:vprnet/timeline-dcf-systemic-failure.git
+        $ git clone git@github.com:vprnet/interactive-transcript-gov-peter-schumlins-third-inaugral-address.git
 
 3. Create Virtual Environment in project
 
-        $ cd timeline-dcf-systemic-failure
+        $ cd interactive-transcript-gov-peter-schumlins-third-inaugral-address
         $ virtualenv venv
 
 4. Enter virtual environment
@@ -56,8 +56,10 @@ The project will be viewable at http://127.0.0.1:5000/
 
         $ python runserver.py freeze
 
-## Author
-[Matt Parrilla](http://twitter.com/mattparrilla)
+## Authors
+
+- [Matt Parrilla](https://twitter.com/mattparrilla)
+- [Brett Chalupa](https://twitter.com/brettchalupa)
 
 ##Copyright and License
 
