@@ -9,7 +9,7 @@ def index():
     page_url = FREEZER_BASE_URL.rstrip('/') + request.path
 
     social = {
-        'title': "Timeline: A Year Of 'Systemic Failure' At DCF",
+        'title': "Interactive Audio Transcript: Gov. Peter Shumlin's Third Inaugural Address",
         'subtitle': "Gov. Peter Shumlin's third inaugural address focused on renewable energy and water quality issues.",
         'img': "http://mediad.publicbroadcasting.net/p/vpr/files/201501/shumlin-inaugural-vpr-evancie-20150108.jpg",
         'description': "Gov. Peter Shumlin's third inaugural address focused on renewable energy and water quality issues.",
