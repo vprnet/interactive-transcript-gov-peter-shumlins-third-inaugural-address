@@ -5,17 +5,17 @@ from config import FREEZER_BASE_URL
 
 @app.route('/')
 def index():
-    page_title = "Timeline: A Year Of 'Systemic Failure' At DCF"
+    page_title = "Interactive Audio Transcript: Gov. Peter Shumlin's Third Inaugural Address"
     page_url = FREEZER_BASE_URL.rstrip('/') + request.path
 
     social = {
         'title': "Timeline: A Year Of 'Systemic Failure' At DCF",
-        'subtitle': "This year has brought a series of tragedies and revelations about problems at Vermont's Department for Children and Families. VPR looks back over the months.",
-        'img': "http://www.vpr.net/apps/timeline-dcf-systemic-failure/static/img/timeline-social-snap.png",
-        'description': "This year has brought a series of tragedies and revelations about problems at Vermont's Department for Children and Families. VPR looks back over the months.",
-        'twitter_text': "Timeline: A Year Of 'Systemic Failure' At DCF",
-        'creator': "Taylor Dobbs and Angela Evancie",
-        'twitter_hashtag': "VT"
+        'subtitle': "Gov. Peter Shumlin's third inaugural address focused on renewable energy and water quality issues.",
+        'img': "http://mediad.publicbroadcasting.net/p/vpr/files/201501/shumlin-inaugural-vpr-evancie-20150108.jpg",
+        'description': "Gov. Peter Shumlin's third inaugural address focused on renewable energy and water quality issues.",
+        'twitter_text': "Interactive Transcript: @GovPeterShumlin's third inaugural address",
+        'creator': "Averbach Transcription",
+        'twitter_hashtag': "vtpoli"
     }
 
     return render_template('content.html',
