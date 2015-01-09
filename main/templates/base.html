@@ -8,10 +8,13 @@
     <meta name="description" content="{% block description %}{{ social.description }}{% endblock %}">
 
     <!-- Styles -->
+
+    
+    <link rel="stylesheet" type="text/css" href="http://avt.io/main.min.css">
+
 {% block style %}
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 {% endblock %}
-
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -28,6 +31,8 @@
 <!-- Jquery used by below anayltics code -->
 {% include "_analytics.html" %}
 
+
+    <script type="text/javascript" src="http://avt.io/scripts.min.js"></script>
 </head>
 
 <body>
@@ -50,11 +55,29 @@
 {% block scripts %}
 {% endblock %}
 
-<script src="//localhost:35729/livereload.js"></script>
-<script type='text/javascript'>//<![CDATA[
-;document.write("<script defer src='//HOST:3000/socket.io/socket.io.js'><\/script><script defer src='//HOST:3001/client/browser-sync-client.0.9.1.js'><\/script>".replace(/HOST/g, location.hostname));
-//]]></script>
 
+
+    <script type="text/javascript">
+
+        $(function(){
+
+            $("#statusid").html("Loading...... ");
+            startTranscriptionService(
+                {
+                    videoelementID : "videoelement",
+                    transcriptContainerID : "source-transcript",
+                    video : [
+                        { vi : "static/video/video.webm" , type : "video/webm"  },
+                        { vi : "static/video/video.mp4" , type : "video/mp4"  }
+                    ],
+                    transcript : "static/transcript/transcript.htm"
+                },function(){
+                    $("#statusid").html("");
+                }
+            );
+        });
+
+    </script>
 
 </body>
 </html>

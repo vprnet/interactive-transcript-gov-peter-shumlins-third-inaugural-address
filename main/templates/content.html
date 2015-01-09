@@ -6,16 +6,34 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <p class='text-center'><small><em><a href="https://avtranscription.com/">By Averbach Transcription</em></small></p>
-        </div>
-    </div>
+            <div id="browsercompatibility">
+                Unfortunately your current browser is not yet supported by this website. Please visit this website using <a href="http://www.google.com/chrome">Google Chrome</a>, <a href="https://www.mozilla.org/firefox">Mozilla Firefox</a>, or <a href="https://www.apple.com/safari/">Apple Safari</a>.
+            </div>
 
-    <div class="row uw-row">
-        <div class="col-xs-12 col-md-6">
-            {% include "_underwriter.html" %}
-        </div>
-        <div class="col-xs-12 col-md-6">
-            {% include "_marcomm.html" %}
+            <div id="persistent">
+                <div class="hidden-xs hidden-sm">
+                  <div id="thevideo">
+                      <video controls id="videoelement" preload webkit-playsinline></video>
+                      <h3 id="statusid" style="max-width:320px; margin:auto"></h3>
+                  </div><!--thevideo-->
+                </div>
+
+                <p id="heading">Governor Shumlin's Inaugural Speech</p>
+                <p id="heading">January 8, 2015</p>
+
+                <hr>
+
+                <p id="heading"><small><em>By VPR News Staff and <a href="https://avtranscription.com/">Averbach Transcription</em></small></p>
+
+                <p class="text-center"><a href="http://mediad.publicbroadcasting.net/p/vpr/files/201501/Shumlin-Third-Inaugural-20150108.mp3" download>Download the MP3</a></p>
+
+                {% include "_underwriter.html" %}
+            </div><!--persistent-->
+
+            <div id="source-transcript" class="transcript" style= "max-height:1800px;">
+
+            </div><!--source-transcript-->
+
         </div>
     </div>
 </div>

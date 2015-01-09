@@ -5,7 +5,7 @@ from config import FREEZER_BASE_URL
 
 @app.route('/')
 def index():
-    page_title = "Interactive Audio Transcript: Gov. Peter Shumlin's Third Inaugural Address"
+    page_title = "Gov. Peter Shumlin's Third Inaugural Address"
     page_url = FREEZER_BASE_URL.rstrip('/') + request.path
 
     social = {
@@ -14,7 +14,7 @@ def index():
         'img': "http://mediad.publicbroadcasting.net/p/vpr/files/201501/shumlin-inaugural-vpr-evancie-20150108.jpg",
         'description': "Gov. Peter Shumlin's third inaugural address focused on renewable energy and water quality issues.",
         'twitter_text': "Interactive Transcript: @GovPeterShumlin's third inaugural address",
-        'creator': "Averbach Transcription",
+        'creator': "VPR News Staff and Averbach Transcription",
         'twitter_hashtag': "vtpoli"
     }
 

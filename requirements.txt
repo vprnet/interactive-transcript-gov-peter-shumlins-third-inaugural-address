@@ -4,7 +4,7 @@ Jinja2==2.7.3
 MarkupSafe==0.23
 Werkzeug==0.9.6
 beautifulsoup4==4.3.2
-boto==2.18.0
+boto==2.34.0
 gdata==2.0.18
 itsdangerous==0.24
 python-google-spreadsheet==2.0.0

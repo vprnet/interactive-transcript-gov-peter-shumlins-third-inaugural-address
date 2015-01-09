@@ -16,7 +16,7 @@ body {
   margin: 0;
 }
 
-/* line 27, ../dev/sass/_bootstrap.scss */
+/* line 16, ../dev/sass/_bootstrap.scss */
 article,
 aside,
 details,
@@ -32,7 +32,7 @@ summary {
   display: block;
 }
 
-/* line 33, ../dev/sass/_bootstrap.scss */
+/* line 30, ../dev/sass/_bootstrap.scss */
 audio,
 canvas,
 progress,
@@ -47,7 +47,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/* line 42, ../dev/sass/_bootstrap.scss */
+/* line 41, ../dev/sass/_bootstrap.scss */
 [hidden],
 template {
   display: none;
@@ -58,7 +58,7 @@ a {
   background: transparent;
 }
 
-/* line 49, ../dev/sass/_bootstrap.scss */
+/* line 48, ../dev/sass/_bootstrap.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -69,7 +69,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 56, ../dev/sass/_bootstrap.scss */
+/* line 55, ../dev/sass/_bootstrap.scss */
 b,
 strong {
   font-weight: bold;
@@ -97,7 +97,7 @@ small {
   font-size: 80%;
 }
 
-/* line 74, ../dev/sass/_bootstrap.scss */
+/* line 73, ../dev/sass/_bootstrap.scss */
 sub,
 sup {
   font-size: 75%;
@@ -143,7 +143,7 @@ pre {
   overflow: auto;
 }
 
-/* line 106, ../dev/sass/_bootstrap.scss */
+/* line 103, ../dev/sass/_bootstrap.scss */
 code,
 kbd,
 pre,
@@ -152,7 +152,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 114, ../dev/sass/_bootstrap.scss */
+/* line 110, ../dev/sass/_bootstrap.scss */
 button,
 input,
 optgroup,
@@ -168,13 +168,13 @@ button {
   overflow: visible;
 }
 
-/* line 123, ../dev/sass/_bootstrap.scss */
+/* line 122, ../dev/sass/_bootstrap.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 129, ../dev/sass/_bootstrap.scss */
+/* line 126, ../dev/sass/_bootstrap.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -183,13 +183,13 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 134, ../dev/sass/_bootstrap.scss */
+/* line 133, ../dev/sass/_bootstrap.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 138, ../dev/sass/_bootstrap.scss */
+/* line 137, ../dev/sass/_bootstrap.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -201,14 +201,14 @@ input {
   line-height: normal;
 }
 
-/* line 146, ../dev/sass/_bootstrap.scss */
+/* line 145, ../dev/sass/_bootstrap.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 151, ../dev/sass/_bootstrap.scss */
+/* line 150, ../dev/sass/_bootstrap.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -222,7 +222,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 161, ../dev/sass/_bootstrap.scss */
+/* line 160, ../dev/sass/_bootstrap.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -257,7 +257,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 184, ../dev/sass/_bootstrap.scss */
+/* line 183, ../dev/sass/_bootstrap.scss */
 td,
 th {
   padding: 0;
@@ -272,7 +272,7 @@ th {
     box-shadow: none !important;
   }
 
-  /* line 195, ../dev/sass/_bootstrap.scss */
+  /* line 194, ../dev/sass/_bootstrap.scss */
   a,
   a:visited {
     text-decoration: underline;
@@ -288,13 +288,13 @@ th {
     content: " (" attr(title) ")";
   }
 
-  /* line 205, ../dev/sass/_bootstrap.scss */
+  /* line 204, ../dev/sass/_bootstrap.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 209, ../dev/sass/_bootstrap.scss */
+  /* line 208, ../dev/sass/_bootstrap.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -306,7 +306,7 @@ th {
     display: table-header-group;
   }
 
-  /* line 217, ../dev/sass/_bootstrap.scss */
+  /* line 216, ../dev/sass/_bootstrap.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -317,7 +317,7 @@ th {
     max-width: 100% !important;
   }
 
-  /* line 225, ../dev/sass/_bootstrap.scss */
+  /* line 223, ../dev/sass/_bootstrap.scss */
   p,
   h2,
   h3 {
@@ -325,7 +325,7 @@ th {
     widows: 3;
   }
 
-  /* line 230, ../dev/sass/_bootstrap.scss */
+  /* line 229, ../dev/sass/_bootstrap.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -341,13 +341,13 @@ th {
     display: none;
   }
 
-  /* line 240, ../dev/sass/_bootstrap.scss */
+  /* line 239, ../dev/sass/_bootstrap.scss */
   .table td,
   .table th {
     background-color: #fff !important;
   }
 
-  /* line 244, ../dev/sass/_bootstrap.scss */
+  /* line 243, ../dev/sass/_bootstrap.scss */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -363,7 +363,7 @@ th {
     border-collapse: collapse !important;
   }
 
-  /* line 254, ../dev/sass/_bootstrap.scss */
+  /* line 253, ../dev/sass/_bootstrap.scss */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -376,7 +376,7 @@ th {
   box-sizing: border-box;
 }
 
-/* line 264, ../dev/sass/_bootstrap.scss */
+/* line 263, ../dev/sass/_bootstrap.scss */
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -387,7 +387,7 @@ th {
 /* line 269, ../dev/sass/_bootstrap.scss */
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* line 273, ../dev/sass/_bootstrap.scss */
@@ -399,7 +399,7 @@ body {
   background-color: #ffffff;
 }
 
-/* line 283, ../dev/sass/_bootstrap.scss */
+/* line 280, ../dev/sass/_bootstrap.scss */
 input,
 button,
 select,
@@ -415,7 +415,7 @@ a {
   text-decoration: none;
 }
 
-/* line 293, ../dev/sass/_bootstrap.scss */
+/* line 292, ../dev/sass/_bootstrap.scss */
 a:hover,
 a:focus {
   color: #2a6496;
@@ -490,7 +490,7 @@ hr {
   border: 0;
 }
 
-/* line 358, ../dev/sass/_bootstrap.scss */
+/* line 347, ../dev/sass/_bootstrap.scss */
 h1,
 h2,
 h3,
@@ -509,7 +509,7 @@ h6,
   color: inherit;
 }
 
-/* line 387, ../dev/sass/_bootstrap.scss */
+/* line 364, ../dev/sass/_bootstrap.scss */
 h1 small,
 h2 small,
 h3 small,
@@ -539,7 +539,7 @@ h6 .small,
   color: #999999;
 }
 
-/* line 397, ../dev/sass/_bootstrap.scss */
+/* line 392, ../dev/sass/_bootstrap.scss */
 h1,
 .h1,
 h2,
@@ -550,7 +550,7 @@ h3,
   margin-bottom: 10px;
 }
 
-/* line 412, ../dev/sass/_bootstrap.scss */
+/* line 401, ../dev/sass/_bootstrap.scss */
 h1 small,
 .h1 small,
 h2 small,
@@ -566,7 +566,7 @@ h3 .small,
   font-size: 65%;
 }
 
-/* line 420, ../dev/sass/_bootstrap.scss */
+/* line 415, ../dev/sass/_bootstrap.scss */
 h4,
 .h4,
 h5,
@@ -577,7 +577,7 @@ h6,
   margin-bottom: 10px;
 }
 
-/* line 435, ../dev/sass/_bootstrap.scss */
+/* line 424, ../dev/sass/_bootstrap.scss */
 h4 small,
 .h4 small,
 h5 small,
@@ -593,37 +593,37 @@ h6 .small,
   font-size: 75%;
 }
 
-/* line 439, ../dev/sass/_bootstrap.scss */
+/* line 438, ../dev/sass/_bootstrap.scss */
 h1,
 .h1 {
   font-size: 36px;
 }
 
-/* line 443, ../dev/sass/_bootstrap.scss */
+/* line 442, ../dev/sass/_bootstrap.scss */
 h2,
 .h2 {
   font-size: 30px;
 }
 
-/* line 447, ../dev/sass/_bootstrap.scss */
+/* line 446, ../dev/sass/_bootstrap.scss */
 h3,
 .h3 {
   font-size: 24px;
 }
 
-/* line 451, ../dev/sass/_bootstrap.scss */
+/* line 450, ../dev/sass/_bootstrap.scss */
 h4,
 .h4 {
   font-size: 18px;
 }
 
-/* line 455, ../dev/sass/_bootstrap.scss */
+/* line 454, ../dev/sass/_bootstrap.scss */
 h5,
 .h5 {
   font-size: 14px;
 }
 
-/* line 459, ../dev/sass/_bootstrap.scss */
+/* line 458, ../dev/sass/_bootstrap.scss */
 h6,
 .h6 {
   font-size: 12px;
@@ -648,7 +648,7 @@ p {
     font-size: 21px;
   }
 }
-/* line 477, ../dev/sass/_bootstrap.scss */
+/* line 476, ../dev/sass/_bootstrap.scss */
 small,
 .small {
   font-size: 85%;
@@ -792,14 +792,14 @@ a.bg-danger:hover {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 565, ../dev/sass/_bootstrap.scss */
+/* line 564, ../dev/sass/_bootstrap.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-/* line 572, ../dev/sass/_bootstrap.scss */
+/* line 569, ../dev/sass/_bootstrap.scss */
 ul ul,
 ol ul,
 ul ol,
@@ -833,7 +833,7 @@ dl {
   margin-bottom: 20px;
 }
 
-/* line 594, ../dev/sass/_bootstrap.scss */
+/* line 593, ../dev/sass/_bootstrap.scss */
 dt,
 dd {
   line-height: 1.42857143;
@@ -866,7 +866,7 @@ dd {
     margin-left: 180px;
   }
 }
-/* line 618, ../dev/sass/_bootstrap.scss */
+/* line 617, ../dev/sass/_bootstrap.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
@@ -887,14 +887,14 @@ blockquote {
   border-left: 5px solid #eeeeee;
 }
 
-/* line 634, ../dev/sass/_bootstrap.scss */
+/* line 632, ../dev/sass/_bootstrap.scss */
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
 
-/* line 639, ../dev/sass/_bootstrap.scss */
+/* line 637, ../dev/sass/_bootstrap.scss */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -904,14 +904,14 @@ blockquote .small {
   color: #999999;
 }
 
-/* line 647, ../dev/sass/_bootstrap.scss */
+/* line 645, ../dev/sass/_bootstrap.scss */
 blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
 
-/* line 651, ../dev/sass/_bootstrap.scss */
+/* line 650, ../dev/sass/_bootstrap.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -921,7 +921,7 @@ blockquote.pull-right {
   text-align: right;
 }
 
-/* line 663, ../dev/sass/_bootstrap.scss */
+/* line 658, ../dev/sass/_bootstrap.scss */
 .blockquote-reverse footer:before,
 blockquote.pull-right footer:before,
 .blockquote-reverse small:before,
@@ -931,7 +931,7 @@ blockquote.pull-right .small:before {
   content: '';
 }
 
-/* line 671, ../dev/sass/_bootstrap.scss */
+/* line 666, ../dev/sass/_bootstrap.scss */
 .blockquote-reverse footer:after,
 blockquote.pull-right footer:after,
 .blockquote-reverse small:after,
@@ -941,7 +941,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 675, ../dev/sass/_bootstrap.scss */
+/* line 674, ../dev/sass/_bootstrap.scss */
 blockquote:before,
 blockquote:after {
   content: "";
@@ -954,7 +954,7 @@ address {
   line-height: 1.42857143;
 }
 
-/* line 686, ../dev/sass/_bootstrap.scss */
+/* line 683, ../dev/sass/_bootstrap.scss */
 code,
 kbd,
 pre,
@@ -2121,7 +2121,7 @@ th {
   margin-bottom: 20px;
 }
 
-/* line 1413, ../dev/sass/_bootstrap.scss */
+/* line 1408, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -2140,7 +2140,7 @@ th {
   border-bottom: 2px solid #dddddd;
 }
 
-/* line 1428, ../dev/sass/_bootstrap.scss */
+/* line 1423, ../dev/sass/_bootstrap.scss */
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
@@ -2160,7 +2160,7 @@ th {
   background-color: #ffffff;
 }
 
-/* line 1442, ../dev/sass/_bootstrap.scss */
+/* line 1437, ../dev/sass/_bootstrap.scss */
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
@@ -2175,7 +2175,7 @@ th {
   border: 1px solid #dddddd;
 }
 
-/* line 1453, ../dev/sass/_bootstrap.scss */
+/* line 1448, ../dev/sass/_bootstrap.scss */
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
 .table-bordered > tfoot > tr > th,
@@ -2185,19 +2185,19 @@ th {
   border: 1px solid #dddddd;
 }
 
-/* line 1457, ../dev/sass/_bootstrap.scss */
+/* line 1456, ../dev/sass/_bootstrap.scss */
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
   border-bottom-width: 2px;
 }
 
-/* line 1461, ../dev/sass/_bootstrap.scss */
+/* line 1460, ../dev/sass/_bootstrap.scss */
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9;
 }
 
-/* line 1465, ../dev/sass/_bootstrap.scss */
+/* line 1464, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #f5f5f5;
@@ -2210,7 +2210,7 @@ table col[class*="col-"] {
   display: table-column;
 }
 
-/* line 1474, ../dev/sass/_bootstrap.scss */
+/* line 1473, ../dev/sass/_bootstrap.scss */
 table td[class*="col-"],
 table th[class*="col-"] {
   position: static;
@@ -2218,7 +2218,7 @@ table th[class*="col-"] {
   display: table-cell;
 }
 
-/* line 1490, ../dev/sass/_bootstrap.scss */
+/* line 1479, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > td.active,
 .table > tbody > tr > td.active,
 .table > tfoot > tr > td.active,
@@ -2234,7 +2234,7 @@ table th[class*="col-"] {
   background-color: #f5f5f5;
 }
 
-/* line 1496, ../dev/sass/_bootstrap.scss */
+/* line 1493, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
@@ -2242,7 +2242,7 @@ table th[class*="col-"] {
   background-color: #e8e8e8;
 }
 
-/* line 1510, ../dev/sass/_bootstrap.scss */
+/* line 1499, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
 .table > tfoot > tr > td.success,
@@ -2258,7 +2258,7 @@ table th[class*="col-"] {
   background-color: #dff0d8;
 }
 
-/* line 1516, ../dev/sass/_bootstrap.scss */
+/* line 1513, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
@@ -2266,7 +2266,7 @@ table th[class*="col-"] {
   background-color: #d0e9c6;
 }
 
-/* line 1530, ../dev/sass/_bootstrap.scss */
+/* line 1519, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
 .table > tfoot > tr > td.info,
@@ -2282,7 +2282,7 @@ table th[class*="col-"] {
   background-color: #d9edf7;
 }
 
-/* line 1536, ../dev/sass/_bootstrap.scss */
+/* line 1533, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
 .table-hover > tbody > tr.info:hover > td,
@@ -2290,7 +2290,7 @@ table th[class*="col-"] {
   background-color: #c4e3f3;
 }
 
-/* line 1550, ../dev/sass/_bootstrap.scss */
+/* line 1539, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > td.warning,
 .table > tbody > tr > td.warning,
 .table > tfoot > tr > td.warning,
@@ -2306,7 +2306,7 @@ table th[class*="col-"] {
   background-color: #fcf8e3;
 }
 
-/* line 1556, ../dev/sass/_bootstrap.scss */
+/* line 1553, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
 .table-hover > tbody > tr.warning:hover > td,
@@ -2314,7 +2314,7 @@ table th[class*="col-"] {
   background-color: #faf2cc;
 }
 
-/* line 1570, ../dev/sass/_bootstrap.scss */
+/* line 1559, ../dev/sass/_bootstrap.scss */
 .table > thead > tr > td.danger,
 .table > tbody > tr > td.danger,
 .table > tfoot > tr > td.danger,
@@ -2330,7 +2330,7 @@ table th[class*="col-"] {
   background-color: #f2dede;
 }
 
-/* line 1576, ../dev/sass/_bootstrap.scss */
+/* line 1573, ../dev/sass/_bootstrap.scss */
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover,
 .table-hover > tbody > tr.danger:hover > td,
@@ -2355,7 +2355,7 @@ table th[class*="col-"] {
     margin-bottom: 0;
   }
 
-  /* line 1597, ../dev/sass/_bootstrap.scss */
+  /* line 1592, ../dev/sass/_bootstrap.scss */
   .table-responsive > .table > thead > tr > th,
   .table-responsive > .table > tbody > tr > th,
   .table-responsive > .table > tfoot > tr > th,
@@ -2370,7 +2370,7 @@ table th[class*="col-"] {
     border: 0;
   }
 
-  /* line 1608, ../dev/sass/_bootstrap.scss */
+  /* line 1603, ../dev/sass/_bootstrap.scss */
   .table-responsive > .table-bordered > thead > tr > th:first-child,
   .table-responsive > .table-bordered > tbody > tr > th:first-child,
   .table-responsive > .table-bordered > tfoot > tr > th:first-child,
@@ -2380,7 +2380,7 @@ table th[class*="col-"] {
     border-left: 0;
   }
 
-  /* line 1616, ../dev/sass/_bootstrap.scss */
+  /* line 1611, ../dev/sass/_bootstrap.scss */
   .table-responsive > .table-bordered > thead > tr > th:last-child,
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
   .table-responsive > .table-bordered > tfoot > tr > th:last-child,
@@ -2390,7 +2390,7 @@ table th[class*="col-"] {
     border-right: 0;
   }
 
-  /* line 1622, ../dev/sass/_bootstrap.scss */
+  /* line 1619, ../dev/sass/_bootstrap.scss */
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
@@ -2433,7 +2433,7 @@ input[type="search"] {
   box-sizing: border-box;
 }
 
-/* line 1654, ../dev/sass/_bootstrap.scss */
+/* line 1653, ../dev/sass/_bootstrap.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -2453,13 +2453,13 @@ input[type="range"] {
   width: 100%;
 }
 
-/* line 1668, ../dev/sass/_bootstrap.scss */
+/* line 1667, ../dev/sass/_bootstrap.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 1673, ../dev/sass/_bootstrap.scss */
+/* line 1671, ../dev/sass/_bootstrap.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -2520,7 +2520,7 @@ output {
   color: #999999;
 }
 
-/* line 1720, ../dev/sass/_bootstrap.scss */
+/* line 1718, ../dev/sass/_bootstrap.scss */
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
@@ -2549,7 +2549,7 @@ input[type="date"] {
   margin-bottom: 15px;
 }
 
-/* line 1738, ../dev/sass/_bootstrap.scss */
+/* line 1737, ../dev/sass/_bootstrap.scss */
 .radio,
 .checkbox {
   display: block;
@@ -2559,7 +2559,7 @@ input[type="date"] {
   padding-left: 20px;
 }
 
-/* line 1746, ../dev/sass/_bootstrap.scss */
+/* line 1745, ../dev/sass/_bootstrap.scss */
 .radio label,
 .checkbox label {
   display: inline;
@@ -2567,7 +2567,7 @@ input[type="date"] {
   cursor: pointer;
 }
 
-/* line 1754, ../dev/sass/_bootstrap.scss */
+/* line 1751, ../dev/sass/_bootstrap.scss */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -2576,13 +2576,13 @@ input[type="date"] {
   margin-left: -20px;
 }
 
-/* line 1759, ../dev/sass/_bootstrap.scss */
+/* line 1758, ../dev/sass/_bootstrap.scss */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
 
-/* line 1763, ../dev/sass/_bootstrap.scss */
+/* line 1762, ../dev/sass/_bootstrap.scss */
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -2593,14 +2593,14 @@ input[type="date"] {
   cursor: pointer;
 }
 
-/* line 1772, ../dev/sass/_bootstrap.scss */
+/* line 1771, ../dev/sass/_bootstrap.scss */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
 
-/* line 1787, ../dev/sass/_bootstrap.scss */
+/* line 1776, ../dev/sass/_bootstrap.scss */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 .radio[disabled],
@@ -2631,7 +2631,7 @@ select.input-sm {
   line-height: 30px;
 }
 
-/* line 1802, ../dev/sass/_bootstrap.scss */
+/* line 1801, ../dev/sass/_bootstrap.scss */
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto;
@@ -2652,7 +2652,7 @@ select.input-lg {
   line-height: 46px;
 }
 
-/* line 1817, ../dev/sass/_bootstrap.scss */
+/* line 1816, ../dev/sass/_bootstrap.scss */
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto;
@@ -2680,7 +2680,7 @@ select[multiple].input-lg {
   text-align: center;
 }
 
-/* line 1841, ../dev/sass/_bootstrap.scss */
+/* line 1836, ../dev/sass/_bootstrap.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -2716,7 +2716,7 @@ select[multiple].input-lg {
   color: #3c763d;
 }
 
-/* line 1867, ../dev/sass/_bootstrap.scss */
+/* line 1862, ../dev/sass/_bootstrap.scss */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -2752,7 +2752,7 @@ select[multiple].input-lg {
   color: #8a6d3b;
 }
 
-/* line 1893, ../dev/sass/_bootstrap.scss */
+/* line 1888, ../dev/sass/_bootstrap.scss */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -2827,7 +2827,7 @@ select[multiple].input-lg {
     vertical-align: middle;
   }
 
-  /* line 1942, ../dev/sass/_bootstrap.scss */
+  /* line 1941, ../dev/sass/_bootstrap.scss */
   .form-inline .radio,
   .form-inline .checkbox {
     display: inline-block;
@@ -2837,7 +2837,7 @@ select[multiple].input-lg {
     vertical-align: middle;
   }
 
-  /* line 1950, ../dev/sass/_bootstrap.scss */
+  /* line 1949, ../dev/sass/_bootstrap.scss */
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
     float: none;
@@ -2849,7 +2849,7 @@ select[multiple].input-lg {
     top: 0;
   }
 }
-/* line 1962, ../dev/sass/_bootstrap.scss */
+/* line 1958, ../dev/sass/_bootstrap.scss */
 .form-horizontal .control-label,
 .form-horizontal .radio,
 .form-horizontal .checkbox,
@@ -2860,7 +2860,7 @@ select[multiple].input-lg {
   padding-top: 7px;
 }
 
-/* line 1968, ../dev/sass/_bootstrap.scss */
+/* line 1967, ../dev/sass/_bootstrap.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
@@ -2894,7 +2894,6 @@ select[multiple].input-lg {
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-
 /* line 1992, ../dev/sass/_bootstrap.scss */
 .glyphicon {
   position: relative;
@@ -3928,7 +3927,7 @@ select[multiple].input-lg {
   padding: 10px 15px;
 }
 
-/* line 2618, ../dev/sass/_bootstrap.scss */
+/* line 2617, ../dev/sass/_bootstrap.scss */
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
@@ -3940,7 +3939,7 @@ select[multiple].input-lg {
   color: #999999;
 }
 
-/* line 2626, ../dev/sass/_bootstrap.scss */
+/* line 2625, ../dev/sass/_bootstrap.scss */
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #999999;
@@ -3949,7 +3948,7 @@ select[multiple].input-lg {
   cursor: not-allowed;
 }
 
-/* line 2634, ../dev/sass/_bootstrap.scss */
+/* line 2632, ../dev/sass/_bootstrap.scss */
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
@@ -3994,7 +3993,7 @@ select[multiple].input-lg {
   border-color: #eeeeee #eeeeee #dddddd;
 }
 
-/* line 2665, ../dev/sass/_bootstrap.scss */
+/* line 2663, ../dev/sass/_bootstrap.scss */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -4046,7 +4045,7 @@ select[multiple].input-lg {
   border-radius: 4px;
 }
 
-/* line 2702, ../dev/sass/_bootstrap.scss */
+/* line 2700, ../dev/sass/_bootstrap.scss */
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
@@ -4060,7 +4059,7 @@ select[multiple].input-lg {
     border-radius: 4px 4px 0 0;
   }
 
-  /* line 2712, ../dev/sass/_bootstrap.scss */
+  /* line 2710, ../dev/sass/_bootstrap.scss */
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
@@ -4082,7 +4081,7 @@ select[multiple].input-lg {
   margin-left: 2px;
 }
 
-/* line 2727, ../dev/sass/_bootstrap.scss */
+/* line 2725, ../dev/sass/_bootstrap.scss */
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -4146,7 +4145,7 @@ select[multiple].input-lg {
   border-radius: 4px;
 }
 
-/* line 2770, ../dev/sass/_bootstrap.scss */
+/* line 2768, ../dev/sass/_bootstrap.scss */
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
@@ -4160,7 +4159,7 @@ select[multiple].input-lg {
     border-radius: 4px 4px 0 0;
   }
 
-  /* line 2780, ../dev/sass/_bootstrap.scss */
+  /* line 2778, ../dev/sass/_bootstrap.scss */
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
@@ -4241,7 +4240,7 @@ select[multiple].input-lg {
     overflow-y: visible;
   }
 
-  /* line 2840, ../dev/sass/_bootstrap.scss */
+  /* line 2838, ../dev/sass/_bootstrap.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -4249,7 +4248,7 @@ select[multiple].input-lg {
     padding-right: 0;
   }
 }
-/* line 2848, ../dev/sass/_bootstrap.scss */
+/* line 2845, ../dev/sass/_bootstrap.scss */
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -4259,7 +4258,7 @@ select[multiple].input-lg {
 }
 
 @media (min-width: 768px) {
-  /* line 2856, ../dev/sass/_bootstrap.scss */
+  /* line 2853, ../dev/sass/_bootstrap.scss */
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -4280,7 +4279,7 @@ select[multiple].input-lg {
     border-radius: 0;
   }
 }
-/* line 2871, ../dev/sass/_bootstrap.scss */
+/* line 2870, ../dev/sass/_bootstrap.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -4290,7 +4289,7 @@ select[multiple].input-lg {
 }
 
 @media (min-width: 768px) {
-  /* line 2879, ../dev/sass/_bootstrap.scss */
+  /* line 2878, ../dev/sass/_bootstrap.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -4318,14 +4317,14 @@ select[multiple].input-lg {
   height: 50px;
 }
 
-/* line 2900, ../dev/sass/_bootstrap.scss */
+/* line 2899, ../dev/sass/_bootstrap.scss */
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
 
 @media (min-width: 768px) {
-  /* line 2905, ../dev/sass/_bootstrap.scss */
+  /* line 2904, ../dev/sass/_bootstrap.scss */
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -4393,7 +4392,7 @@ select[multiple].input-lg {
     box-shadow: none;
   }
 
-  /* line 2957, ../dev/sass/_bootstrap.scss */
+  /* line 2956, ../dev/sass/_bootstrap.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
@@ -4404,7 +4403,7 @@ select[multiple].input-lg {
     line-height: 20px;
   }
 
-  /* line 2964, ../dev/sass/_bootstrap.scss */
+  /* line 2963, ../dev/sass/_bootstrap.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
@@ -4483,7 +4482,7 @@ select[multiple].input-lg {
     vertical-align: middle;
   }
 
-  /* line 3022, ../dev/sass/_bootstrap.scss */
+  /* line 3021, ../dev/sass/_bootstrap.scss */
   .navbar-form .radio,
   .navbar-form .checkbox {
     display: inline-block;
@@ -4493,7 +4492,7 @@ select[multiple].input-lg {
     vertical-align: middle;
   }
 
-  /* line 3030, ../dev/sass/_bootstrap.scss */
+  /* line 3029, ../dev/sass/_bootstrap.scss */
   .navbar-form .radio input[type="radio"],
   .navbar-form .checkbox input[type="checkbox"] {
     float: none;
@@ -4590,7 +4589,7 @@ select[multiple].input-lg {
   color: #777777;
 }
 
-/* line 3101, ../dev/sass/_bootstrap.scss */
+/* line 3100, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
@@ -4607,14 +4606,14 @@ select[multiple].input-lg {
   color: #777777;
 }
 
-/* line 3112, ../dev/sass/_bootstrap.scss */
+/* line 3111, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
 
-/* line 3118, ../dev/sass/_bootstrap.scss */
+/* line 3116, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -4622,7 +4621,7 @@ select[multiple].input-lg {
   background-color: #e7e7e7;
 }
 
-/* line 3124, ../dev/sass/_bootstrap.scss */
+/* line 3122, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
@@ -4635,7 +4634,7 @@ select[multiple].input-lg {
   border-color: #dddddd;
 }
 
-/* line 3132, ../dev/sass/_bootstrap.scss */
+/* line 3131, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #dddddd;
@@ -4646,13 +4645,13 @@ select[multiple].input-lg {
   background-color: #888888;
 }
 
-/* line 3139, ../dev/sass/_bootstrap.scss */
+/* line 3138, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
 
-/* line 3144, ../dev/sass/_bootstrap.scss */
+/* line 3142, ../dev/sass/_bootstrap.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -4666,14 +4665,14 @@ select[multiple].input-lg {
     color: #777777;
   }
 
-  /* line 3153, ../dev/sass/_bootstrap.scss */
+  /* line 3152, ../dev/sass/_bootstrap.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333333;
     background-color: transparent;
   }
 
-  /* line 3159, ../dev/sass/_bootstrap.scss */
+  /* line 3157, ../dev/sass/_bootstrap.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
@@ -4681,7 +4680,7 @@ select[multiple].input-lg {
     background-color: #e7e7e7;
   }
 
-  /* line 3165, ../dev/sass/_bootstrap.scss */
+  /* line 3163, ../dev/sass/_bootstrap.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -4710,7 +4709,7 @@ select[multiple].input-lg {
   color: #999999;
 }
 
-/* line 3184, ../dev/sass/_bootstrap.scss */
+/* line 3183, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #ffffff;
@@ -4727,14 +4726,14 @@ select[multiple].input-lg {
   color: #999999;
 }
 
-/* line 3195, ../dev/sass/_bootstrap.scss */
+/* line 3194, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent;
 }
 
-/* line 3201, ../dev/sass/_bootstrap.scss */
+/* line 3199, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -4742,7 +4741,7 @@ select[multiple].input-lg {
   background-color: #080808;
 }
 
-/* line 3207, ../dev/sass/_bootstrap.scss */
+/* line 3205, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -4755,7 +4754,7 @@ select[multiple].input-lg {
   border-color: #333333;
 }
 
-/* line 3215, ../dev/sass/_bootstrap.scss */
+/* line 3214, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #333333;
@@ -4766,13 +4765,13 @@ select[multiple].input-lg {
   background-color: #ffffff;
 }
 
-/* line 3222, ../dev/sass/_bootstrap.scss */
+/* line 3221, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
 
-/* line 3227, ../dev/sass/_bootstrap.scss */
+/* line 3225, ../dev/sass/_bootstrap.scss */
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
@@ -4796,14 +4795,14 @@ select[multiple].input-lg {
     color: #999999;
   }
 
-  /* line 3242, ../dev/sass/_bootstrap.scss */
+  /* line 3241, ../dev/sass/_bootstrap.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
     background-color: transparent;
   }
 
-  /* line 3248, ../dev/sass/_bootstrap.scss */
+  /* line 3246, ../dev/sass/_bootstrap.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
@@ -4811,7 +4810,7 @@ select[multiple].input-lg {
     background-color: #080808;
   }
 
-  /* line 3254, ../dev/sass/_bootstrap.scss */
+  /* line 3252, ../dev/sass/_bootstrap.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -4829,7 +4828,7 @@ select[multiple].input-lg {
   color: #ffffff;
 }
 
-/* line 3282, ../dev/sass/_bootstrap.scss */
+/* line 3265, ../dev/sass/_bootstrap.scss */
 .clearfix:before,
 .clearfix:after,
 .container:before,
@@ -4852,7 +4851,7 @@ select[multiple].input-lg {
   display: table;
 }
 
-/* line 3294, ../dev/sass/_bootstrap.scss */
+/* line 3286, ../dev/sass/_bootstrap.scss */
 .clearfix:after,
 .container:after,
 .container-fluid:after,
@@ -4920,8 +4919,7 @@ select[multiple].input-lg {
 @-ms-viewport {
   width: device-width;
 }
-
-/* line 3337, ../dev/sass/_bootstrap.scss */
+/* line 3334, ../dev/sass/_bootstrap.scss */
 .visible-xs,
 .visible-sm,
 .visible-md,
@@ -4945,7 +4943,7 @@ select[multiple].input-lg {
     display: table-row !important;
   }
 
-  /* line 3351, ../dev/sass/_bootstrap.scss */
+  /* line 3350, ../dev/sass/_bootstrap.scss */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
@@ -4967,7 +4965,7 @@ select[multiple].input-lg {
     display: table-row !important;
   }
 
-  /* line 3366, ../dev/sass/_bootstrap.scss */
+  /* line 3365, ../dev/sass/_bootstrap.scss */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
@@ -4989,7 +4987,7 @@ select[multiple].input-lg {
     display: table-row !important;
   }
 
-  /* line 3381, ../dev/sass/_bootstrap.scss */
+  /* line 3380, ../dev/sass/_bootstrap.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
@@ -5011,7 +5009,7 @@ select[multiple].input-lg {
     display: table-row !important;
   }
 
-  /* line 3396, ../dev/sass/_bootstrap.scss */
+  /* line 3395, ../dev/sass/_bootstrap.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
@@ -5062,7 +5060,7 @@ select[multiple].input-lg {
     display: table-row !important;
   }
 
-  /* line 3434, ../dev/sass/_bootstrap.scss */
+  /* line 3433, ../dev/sass/_bootstrap.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
@@ -5210,8 +5208,7 @@ footer span#copyright {
   font-weight: normal;
   font-style: normal;
 }
-
-/* line 545, ../dev/sass/_ionicons.scss */
+/* line 14, ../dev/sass/_ionicons.scss */
 .ion, .ion-loading-a,
 .ion-loading-b,
 .ion-loading-c,
@@ -5757,7 +5754,7 @@ footer span#copyright {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 564, ../dev/sass/_ionicons.scss */
+/* line 558, ../dev/sass/_ionicons.scss */
 .ion-spin, .ion-loading-a,
 .ion-loading-b,
 .ion-loading-c,
@@ -5782,7 +5779,6 @@ footer span#copyright {
     -moz-transform: rotate(359deg);
   }
 }
-
 @-webkit-keyframes spin {
   /* line 578, ../dev/sass/_ionicons.scss */
   0% {
@@ -5794,7 +5790,6 @@ footer span#copyright {
     -webkit-transform: rotate(359deg);
   }
 }
-
 @-o-keyframes spin {
   /* line 585, ../dev/sass/_ionicons.scss */
   0% {
@@ -5806,7 +5801,6 @@ footer span#copyright {
     -o-transform: rotate(359deg);
   }
 }
-
 @-ms-keyframes spin {
   /* line 592, ../dev/sass/_ionicons.scss */
   0% {
@@ -5818,7 +5812,6 @@ footer span#copyright {
     -ms-transform: rotate(359deg);
   }
 }
-
 @keyframes spin {
   /* line 599, ../dev/sass/_ionicons.scss */
   0% {
@@ -5830,7 +5823,6 @@ footer span#copyright {
     transform: rotate(359deg);
   }
 }
-
 /* line 605, ../dev/sass/_ionicons.scss */
 .ion-loading-a {
   -webkit-animation-timing-function: steps(8, start);
@@ -8466,4 +8458,74 @@ footer span#copyright {
 /* line 6, ../dev/sass/style.scss */
 .uw-row {
   padding-top: 32px;
+}
+
+/* line 10, ../dev/sass/style.scss */
+#source-transcript:after {
+  background: none;
+  margin-bottom: 20px;
+}
+
+/* line 15, ../dev/sass/style.scss */
+#persistent {
+  top: 80px;
+  background-color: #FFFFFF;
+}
+
+/* line 20, ../dev/sass/style.scss */
+#heading {
+  font-family: inherit;
+}
+
+/* line 24, ../dev/sass/style.scss */
+article {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/* line 30, ../dev/sass/style.scss */
+#source-transcript a {
+  color: black;
+  font-size: 16px;
+}
+
+/* line 36, ../dev/sass/style.scss */
+.navbar .navbar-header h1#navbar-title {
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+@media (max-width: 768px) {
+  /* line 42, ../dev/sass/style.scss */
+  .navbar .navbar-header h1#navbar-title {
+    display: none;
+  }
+
+  /* line 46, ../dev/sass/style.scss */
+  #persistent {
+    top: 0px;
+    left: 0px;
+    position: inherit;
+  }
+
+  /* line 52, ../dev/sass/style.scss */
+  article {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  /* line 57, ../dev/sass/style.scss */
+  #source-transcript {
+    padding-top: 20px;
+  }
+
+  /* line 61, ../dev/sass/style.scss */
+  .onmovecolor {
+    background-color: inherit;
+  }
+
+  /* line 65, ../dev/sass/style.scss */
+  #source-transcript a {
+    text-decoration: none;
+  }
 }

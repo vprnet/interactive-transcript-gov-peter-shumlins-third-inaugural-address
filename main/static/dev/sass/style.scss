@@ -6,3 +6,63 @@
 .uw-row {
   padding-top: 32px;
 }
+
+#source-transcript:after {
+  background: none;
+  margin-bottom: 20px;
+}
+
+#persistent {
+  top: 80px;
+  background-color: #FFFFFF;
+}
+
+#heading {
+  font-family: inherit;
+}
+
+article {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#source-transcript {
+  a {
+    color: black;
+    font-size: 16px;
+  }
+}
+
+.navbar .navbar-header h1#navbar-title {
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-header h1#navbar-title {
+    display: none;
+  }
+
+  #persistent {
+    top: 0px;
+    left: 0px;
+    position: inherit;
+  }
+
+  article {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  #source-transcript {
+    padding-top: 20px;
+  }
+
+  .onmovecolor {
+    background-color: inherit;
+  }
+
+  #source-transcript a {
+    text-decoration: none;
+  }
+}
