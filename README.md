@@ -33,6 +33,16 @@ A page built using the [app-template](https://github.com/vprnet/app-template).
         $ cd main/static
         $ npm install
 
+## Downloading the Video Files
+
+In order to not have the large video files w/ the audio checked into the repo,
+you must download them from AWS S3.
+
+- MP4: http://www.vpr.net/apps/interactive-transcript-gov-peter-shumlins-third-inaugural-address/static/video/video.mp4
+- Webm: http://www.vpr.net/apps/interactive-transcript-gov-peter-shumlins-third-inaugural-address/static/video/video.webm
+
+Place them in the `main/static/video/` directory.
+
 ##Develop
 
 To get grunt running in the background:
